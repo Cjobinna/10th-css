@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstd{
+    width: 25%;
+    height: 10vh;
+    background-color: rgb(15, 2, 82);
+    float: left;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(19, 189, 19);
+    font-weight: bolder;
+}
+.secd{
+    width: 75%;
+    height: 10vh;
+    background-color: rgb(15, 2, 82);
+    display: flex;
+    justify-content: space-evenly;
+}
+li, a{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(226, 209, 209);
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    grid-template-rows:repeat(18, 1fr) ;
+    gap: 20px;
+    border: 20px solid rgb(226, 209, 209);
+}
+.div{
+    background-color: white;
+    border-radius: 5px;
+}
+.div1{
+    grid-row:span 4;
+    display: flex;
+    flex-direction: column;
+    
+}
+.div2{
+    grid-row:span 10;
+}   
+.div3{
+    grid-row:span 18;
+}
+.div4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: span 14;
+} 
+.div5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: span 8;
+} 
+.div1 textarea{
+    height: 50px;
+}
+button{
+    display: flex;
+    align-self: flex-end;
+    background-color: blue;
+    border: none;
+    padding: 5px;
+}
+.classA{
+    display: flex;
+    justify-self: end;
+}
+
+.div2 .img1{
+    width: 40px;
+    height: 40px;
+}
+.div2 .box1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.box2{
+    width: 80%;
+    margin:10px auto;
+}
+.img2{
+    width: 350px;
+}
